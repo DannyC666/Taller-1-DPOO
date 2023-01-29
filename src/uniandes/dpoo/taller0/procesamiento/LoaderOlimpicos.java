@@ -26,7 +26,7 @@ public class LoaderOlimpicos
 		List<Evento> eventos = new ArrayList<>();
 
 		// Abrir el archivo y leerlo línea por línea usando un BufferedReader
-		BufferedReader br = new BufferedReader(new FileReader("Taller0_Olimpicos/data/atletas.csv"));
+		BufferedReader br = new BufferedReader(new FileReader("data/atletas.csv"));
 		String linea = br.readLine(); // La primera línea del archivo se ignora porque únicamente tiene los títulos de
 										// las columnas
 		linea = br.readLine();
